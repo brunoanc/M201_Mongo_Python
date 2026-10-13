@@ -1,0 +1,398 @@
+Ejecución: 2026-10-13T23:15:41
+Servidor MongoDB: 8.3.11
+Nota: el encabezado usa el nombre actual de la aplicación.
+Auditoría de inventario
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: hola
+Opción inválida. Selecciona uno de los números del menú.
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 1
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Email: ana@empresa.com
+Nombre: Ana
+Apellido: López
+Usuario registrado. ID: 6acebb9d9849ac5aaa4b4e9a
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Email: luis@empresa.com
+Nombre: Luis
+Apellido: Pérez
+Usuario registrado. ID: 6acebb9d9849ac5aaa4b4e9b
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Email: ANA@EMPRESA.COM
+Nombre: Ana
+Apellido: López
+Operación rechazada: Ya existe un usuario con ese email.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+Email a buscar (Enter para listar todos): 
+
+ID: 6acebb9d9849ac5aaa4b4e9a
+Email: ana@empresa.com
+Nombre: Ana López
+Fecha creado: 2026-10-13
+
+ID: 6acebb9d9849ac5aaa4b4e9b
+Email: luis@empresa.com
+Nombre: Luis Pérez
+Fecha creado: 2026-10-13
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+Email a buscar (Enter para listar todos): ana@empresa.com
+
+ID: 6acebb9d9849ac5aaa4b4e9a
+Email: ana@empresa.com
+Nombre: Ana López
+Fecha creado: 2026-10-13
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 3
+Email actual del usuario: ana@empresa.com
+Escribe todos los nuevos datos del usuario.
+Email: anita@empresa.com
+Nombre: Anita
+Apellido: López
+Usuario modificado.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+Email a buscar (Enter para listar todos): anita@empresa.com
+
+ID: 6acebb9d9849ac5aaa4b4e9a
+Email: anita@empresa.com
+Nombre: Anita López
+Fecha creado: 2026-10-13
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 0
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 2
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Nombre del artículo:    
+Descripción: USB
+Marca: HP
+Email del usuario responsable: anita@empresa.com
+Operación rechazada: El campo nombre del artículo no puede estar vacío.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Nombre del artículo: Monitor
+Descripción: LED
+Marca: HP
+Email del usuario responsable: nadie@empresa.com
+Operación rechazada: No existe un usuario con ese email.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 1
+Nombre del artículo: Teclado
+Descripción: USB
+Marca: Logitech
+Email del usuario responsable: anita@empresa.com
+Artículo registrado. ID: 6acebb9d9849ac5aaa4b4e9d
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+ID a buscar (Enter para listar todos): 
+
+ID: 6acebb9d9849ac5aaa4b4e9d
+Nombre: Teclado
+Descripción: USB
+Marca: Logitech
+Última modificación: anita@empresa.com (Anita López)
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+ID a buscar (Enter para listar todos): 6acebb9d9849ac5aaa4b4e9d
+
+ID: 6acebb9d9849ac5aaa4b4e9d
+Nombre: Teclado
+Descripción: USB
+Marca: Logitech
+Última modificación: anita@empresa.com (Anita López)
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 3
+ID del artículo a modificar: abc
+Operación rechazada: El ID del artículo debe tener 24 caracteres hexadecimales.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 3
+ID del artículo a modificar: 6acebb9d9849ac5aaa4b4e9d
+Escribe todos los nuevos datos del artículo.
+Nombre del artículo:   
+Descripción: 
+Marca: 
+Email del usuario responsable: anita@empresa.com
+Operación rechazada: El campo nombre del artículo no puede estar vacío.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 3
+ID del artículo a modificar: 6acebb9d9849ac5aaa4b4e9d
+Escribe todos los nuevos datos del artículo.
+Nombre del artículo: Otro
+Descripción: 
+Marca: 
+Email del usuario responsable: nadie@empresa.com
+Operación rechazada: No existe un usuario con ese email.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 3
+ID del artículo a modificar: 6acebb9d9849ac5aaa4b4e9d
+Escribe todos los nuevos datos del artículo.
+Nombre del artículo: Teclado inalámbrico
+Descripción: Bluetooth
+Marca: HP
+Email del usuario responsable: luis@empresa.com
+Artículo modificado.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+ID a buscar (Enter para listar todos): 6acebb9d9849ac5aaa4b4e9d
+
+ID: 6acebb9d9849ac5aaa4b4e9d
+Nombre: Teclado inalámbrico
+Descripción: Bluetooth
+Marca: HP
+Última modificación: luis@empresa.com (Luis Pérez)
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 0
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 1
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 4
+Email del usuario a eliminar: luis@empresa.com
+Operación rechazada: No se puede eliminar el usuario: tiene artículos asociados. Reasigna o elimina esos artículos primero.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 4
+Email del usuario a eliminar: anita@empresa.com
+Usuario eliminado.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+Email a buscar (Enter para listar todos): 
+
+ID: 6acebb9d9849ac5aaa4b4e9b
+Email: luis@empresa.com
+Nombre: Luis Pérez
+Fecha creado: 2026-10-13
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 0
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 2
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 4
+ID del artículo a eliminar: 6acebb9d9849ac5aaa4b4e9d
+Artículo eliminado.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+ID a buscar (Enter para listar todos): 
+No hay artículos registrados.
+
+Artículos
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 0
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 1
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 4
+Email del usuario a eliminar: luis@empresa.com
+Usuario eliminado.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 2
+Email a buscar (Enter para listar todos): 
+No hay usuarios registrados.
+
+Usuarios
+1. Crear
+2. Consultar / Listar / Buscar
+3. Modificar
+4. Eliminar
+0. Volver
+Opción: 0
+
+Menú principal
+1. Usuarios
+2. Artículos
+0. Salir
+Opción: 0
+Sesión finalizada.
